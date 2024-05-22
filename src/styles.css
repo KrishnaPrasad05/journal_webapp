@@ -1,0 +1,149 @@
+/* styles.css */
+
+.custom-dropdown .dropdown-menu {
+  background-color: #E8E7E7; /* Change this to the desired color */
+}
+
+.homeMarTop{
+  margin-top: 2rem;
+}
+
+#topPlate{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.responsive-font {
+    font-size: 24px;
+  }
+
+.responsive-font2 {
+    font-size: 16px; 
+  }
+.responsive-font3 {
+    font-size: 12px; 
+  }
+  
+  @media screen and (min-width: 480px) {
+    .responsive-font {
+      font-size: 1.5rem; 
+    }
+    .responsive-font2 {
+      font-size: 16px; 
+    }
+    .responsive-font3 {
+      font-size: 12px; 
+    }
+    #topPlate{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+  @media screen and (min-width: 550px) {
+    #topPlate{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .responsive-font {
+      font-size: 1.5rem; 
+    }
+    .responsive-font2 {
+      font-size: 1.5rem; 
+    }
+    .responsive-font3 {
+      font-size: 14px; 
+    }
+    #topPlate{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .responsive-font {
+      font-size: 2rem; 
+    }
+    .responsive-font2 {
+      font-size: 2rem; 
+    }
+    .responsive-font3 {
+      font-size: 1rem; 
+    }
+    #topPlate{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+    }
+    .homeMarTop{
+      margin-top:-1800px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .responsive-font {
+      font-size: 3rem; 
+    }
+    .responsive-font2 {
+      font-size: 2.5rem; 
+    }
+    .responsive-font3 {
+      font-size: 1.5rem; 
+    }
+    #topPlate{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+    }
+    .homeMarTop{
+      margin-top:-1000px;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .homeMarTop{
+      margin-top:-700px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .number-scroller {
+    position: relative;
+    width: 100px; /* Adjust width as needed */
+    height: 30px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .rolling-number,
+  .fixed-number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .fixed-number {
+    z-index: 1;
+  }
+  
