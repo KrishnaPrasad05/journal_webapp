@@ -86,11 +86,11 @@ function EditorDeskReviewer() {
                 <p>
                   For any inquiries or further information, please contact us at:
                 </p>
-                <ul>
+                <ol>
                 <li><strong>General Inquiries</strong>: <a style={{textDecoration:'none'}} href="mailto:info.ijrma@gmail.com">info.ijrma@gmail.com</a></li>
                 <li><strong>Submission Support</strong>: <a style={{textDecoration:'none'}} href="mailto:ijrmapublishers@gmail.com">ijrmapublishers@gmail.com</a></li>
                   
-                </ul>
+                </ol>
               </Card.Text>
             </Card.Body>
           </Card>
